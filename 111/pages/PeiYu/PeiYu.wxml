@@ -1,0 +1,24 @@
+<view class="container1">
+  <image class="beijing2" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/beijing2.jpg"></image>
+  <swiper autoplay="true" interval="4000" previous-margin="70rpx" next-margin="70rpx" circular="true">
+  <swiper-item>
+    <image src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye1.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye2.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye3.jpg" />
+  </swiper-item>
+  </swiper>
+</view>  
+<view class="container2">
+  <image catchtap="onTapJump1" class="jieShao" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_jieshao.png"></image>
+  <image catchtap="onTapJump2" class="fangAn" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_fangan.png"></image>
+</view>
+<view class="container3">
+  <image catchtap="onTapJump3" class="meiRi" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_meiri.png"></image>
+  <image catchtap="onTapJump4" class="zhuanJia" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_zhuanjia.png"></image>
+</view>
+
+

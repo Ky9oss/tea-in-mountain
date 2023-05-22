@@ -1,0 +1,31 @@
+<!--pages/PeiYu/Share/UploadArticle/UploadArticle.wxml-->
+<view class="conts">
+    <textarea class="areas2" placeholder='输入标题' bindinput="inputs2" maxlength="30"></textarea>
+  <textarea class="areas" placeholder='输入内容' bindinput="inputs" maxlength="-1"></textarea>
+</view>
+<view class="photo-list" >
+    <viwe class="container1">
+    <text class='photo' bindtap='changePhoto'>上传图片</text>
+    <text class="tips">点击预览图片，长按删除图片</text>
+    </viwe>
+    
+    <image class='photos' mode='aspectFill'
+        wx:for="{{photoList}}"
+        wx:key="index" 
+        src="{{item}}" 
+        mode="aspectFill" 
+        data-idx='{{index}}'
+        bindlongpress='long'
+        bindtap='previe'
+    />
+</view>
+<view class="upload">
+    <radio-group class="radios">
+       <radio class="radio1"  bindtap="jingyan">经验分享</radio>
+    <radio class="radio2" bindtap="wenti">问题求助</radio>
+    <button class="uploadBtn" bindtap="upload">分享</button>
+</radio-group>
+</view>
+
+
+

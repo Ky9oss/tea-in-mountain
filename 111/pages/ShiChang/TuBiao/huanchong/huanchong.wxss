@@ -1,0 +1,4 @@
+/* pages/ShiChang/TuBiao/huanchong/huanchong.wxss */
+page {
+  background-color: teal;
+}

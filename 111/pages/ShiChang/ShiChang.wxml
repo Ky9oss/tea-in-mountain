@@ -1,0 +1,13 @@
+<view class="container1">
+  <swiper autoplay="true" interval="4000" previous-margin="40rpx" next-margin="40rpx" circular="true" indicator-dots="true" indicator-color="#FFA500">
+  <swiper-item>
+    <image catchtap="onTapJump1" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/shichang1.png" />
+  </swiper-item>
+  <swiper-item>
+    <image catchtap="onTapJump2" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/shichang2.png" />
+  </swiper-item>
+  <swiper-item>
+    <image catchtap="onTapJump3" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/shichang3.png" />
+  </swiper-item>
+  </swiper>
+</view>  

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+      "ec-canvas": "../../../utils/ec-canvas/ec-canvas"
+  },
+  "navigationBarTitleText": "货畅流则财源裕",
+  "disableScroll": true,
+  "navigationBarBackgroundColor":"#FFA500",
+  "navigationBarTextStyle": "white"
+}

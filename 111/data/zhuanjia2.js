@@ -1,0 +1,32 @@
+var zhuanjia2List = [{
+  //专家
+    type1:"\n问题分享",
+    title1:"问题：农民缺少对市场的调研",
+    pic1:"cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye9.jpg",
+    jianjie1:"没有细致的对消费者和销售方法进行相应的研究，再加上农民本身经济条件的限制等因素，大部分农民对农产品的种植都是根据去年的作物价格来估判的......",
+    type2:"\n问题分享",
+    title2:"问题：政府关注不够",
+    pic2:"cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye10.jpg",
+    jianjie2:"在农村，很多农民生产农作物只用于自产自销，生产数量少，规模也比较小，严重制约了农产品行销策略的制订。对于大面积种植，比如：水果......",
+    type3:"\n问题分享",
+    title3:"问题：农产品生产的季节性太强",
+    pic3:"cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye11.jpg",
+    jianjie3:"通常来说，大部分农产品都具有季节性生长的属性，因农户的自身经济条件有限，不能建立储存仓库，长期储存，反季节销售，这势必造成农产品在成熟时可能会集中上市......",
+    type4:"\n问题分享",
+    title4:"问题：部分农产品质量不过关",
+    pic4:"cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye12.jpg",
+    jianjie4:"产品质量是消费者选择的根本保障，产品质量过关，才可以得到消费者的青睐。针对现阶段存在的一些问题，提高安全意识，加强检测体系的监理......",
+    type5:"\n营销策略",
+    title5:"迎合消费者购买农产品的心理动机",
+    pic5:"cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye13.jpg",
+    jianjie5:"一是增强消费者对绿色食品的认知。对绿色农产品了解越多，越有助于激发消费者内心对安全和健康的需要，进而提高对绿色农产品的消费。千万不能将绿色食品标志仅仅印在包装上一贴了事......",
+    tishi:"\n查看详情>>>>",
+    type6:"\n营销策略",
+    title6:"基于顾客让渡价值的策略",
+    pic6:"cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chaye14.jpg",
+    jianjie6:"重农产品品牌和包装。品牌和包装是农产品生产者向消费者的一种，提供的一种便利，开展的一种宣传推介方式。因此农产品品牌命名必须琅琅上口，易读易记；还要寓意深刻，新颖别致；做到清新高雅......",
+  }]
+
+  module.exports={
+    zhuanjia2List:zhuanjia2List,
+  }

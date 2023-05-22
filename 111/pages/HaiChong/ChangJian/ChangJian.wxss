@@ -1,0 +1,50 @@
+.beijing{
+  height:100%;
+  width:100%;
+  position:absolute;
+  z-index:-2;
+}
+
+.chongchong1{
+  width:50%;
+  height:300rpx;
+  margin-top:90rpx
+}
+
+.chongchong2{
+  width:50%;
+  height:300rpx;
+  margin-top:90rpx
+}
+
+.chongchong3{
+  width:28%;
+  height:150rpx;
+  margin-top:50rpx;
+  margin-left:60rpx;
+}
+
+.chongchong4{
+  width:50%;
+  height:300rpx;
+  margin-top:50rpx;
+  margin-left:60rpx;
+}
+
+.chongchong5{
+  width:50%;
+  height:200rpx;
+  margin-top:70rpx;
+  margin-left:25%;
+}
+
+.confirm-btn {
+  font-size: 30rpx;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #050505;
+  color: rgb(255, 249, 249);
+  text-align: center;
+  border-radius: 120rpx;
+  margin: 3% 20%;
+}

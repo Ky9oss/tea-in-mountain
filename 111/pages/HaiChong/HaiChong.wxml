@@ -1,0 +1,12 @@
+<view>
+  <image class="beijing" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/beijing1.png"></image>
+  <image class="spider" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/spider1.gif"></image>
+  <image class="spider2" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/spider3.png"></image>
+  <image class="spider3" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/spider4.png"></image>
+  <image catchtap="onTapJump1" class="changjian" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_haichong1.png"></image>
+  <image catchtap="onTapJump2" class="fangzhi" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_haichong3.png"></image>
+  <view class="container1">
+    <image catchtap="get_image" disabled="{{btn_enable}}" class="xiangji" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_xiangji4.png"></image>
+    <image catchtap="onTapJump4" class="nongyao" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhizuotu_haichong6.png"></image>
+  </view>
+</view>

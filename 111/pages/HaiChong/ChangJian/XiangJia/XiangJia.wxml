@@ -1,0 +1,17 @@
+<block wx:for="{{xiangjiaList}}" wx:for-item="item" wx:for-index="index">
+  <view class = "container" >
+    <image class = "beijing" src = "{{item.beijing}}"></image>
+    <image class = "hudie" src = "{{item.hudie}}"></image>
+    <image class = "title" src = "{{item.title}}"></image>
+    <image class = "spider1" src = "{{item.spider1}}"></image>
+    <image class = "spider2" src = "{{item.spider1}}"></image>
+    <image class = "spider3" src = "{{item.spider2}}"></image>
+    <image class = "cat" catchtap="stop" wx:if="{{isplay==true}}" src = "{{item.cat}}"></image>
+    <image class = "cat2" catchtap="play" wx:if="{{isplay==false}}" src = "{{item.cat2}}"></image>
+    <text class = "shiju">{{item.shiju}}</text>
+    <text class = "title2">茶丽纹象甲</text>
+    <text class = "zhengwen1" decode = "{{true}}">{{item.zhengwen1}}</text>
+    <text class = "zhengwen2" decode = "{{true}}">{{item.zhengwen2}}</text>
+    <text class = "zhengwen3" decode = "{{true}}">{{item.zhengwen3}}</text>
+  </view>
+</block>

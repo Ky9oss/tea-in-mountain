@@ -1,0 +1,40 @@
+.type{
+    font-weight: 700;
+    margin-left: 40rpx;   
+    margin-top:20rpx;
+    color:rgb(223, 128, 19) 
+}
+
+
+.details{
+    float: right;
+    margin-right:40rpx;
+    color: rgb(13, 173, 120);
+}
+.article{
+    border: 1.5px solid;
+    border-radius: 10px;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+    margin-top: 30rpx;
+    border-color: darkgreen;
+}
+
+.fenxiang3{
+  width: 60px;
+  height: 60px;
+}
+
+.container2{
+  justify-content: center;
+  display:flex;
+}
+
+.scroll{
+  width:90%;
+  margin-top:2%;
+  margin-left:2%;
+}
+page{
+  background-color:rgb(195, 248, 195);
+}

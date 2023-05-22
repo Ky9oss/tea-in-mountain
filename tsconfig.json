@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "module": "CommonJS",
+    "target": "ES2020",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "strictPropertyInitialization": true,
+    "lib": ["ES2020"],
+    "typeRoots": [
+      "./typings"
+    ],
+    "outDir": "./",
+  },
+  "include": [
+    "./**/*.ts"
+, "111/pages/PeiYu/JieShao/JieShao.js", "111/pages/PeiYu/ShiShi/ShiShi.js", "111/pages/PeiYu/ZhuanJia/ZhuanJia.js", "111/pages/PeiYu/ZhuanJia/Detail5/Detail5.js", "111/pages/PeiYu/ZhuanJia/Detail4/Detail4.js", "111/pages/PeiYu/ZhuanJia/Detail3/Detail3.js", "111/pages/PeiYu/ZhuanJia/Detail2/Detail2.js", "111/pages/PeiYu/ZhuanJia/Detail1/Detail1.js", "111/pages/HaiChong/ChangJian/ChangJian.js", "111/pages/HaiChong/ChangJian/YingMan/YingMan.js", "111/pages/HaiChong/ChangJian/XiangJia/XiangJia.js", "111/pages/HaiChong/ChangJian/LvYeChan/LvYeChan.js", "111/pages/HaiChong/ChangJian/ChaMaoChong/ChaMaoChong.js", "111/pages/HaiChong/ChangJian/ChaChiHuo/ChaChiHuo.js", "111/pages/PeiYu/FangAn/ZhengChang/ZhengChang.js", "111/pages/PeiYu/FangAn/JianXing/JianXing.js", "111/pages/PeiYu/FangAn/GaoWen/GaoWen.js", "111/pages/PeiYu/FangAn/DiWen/DiWen.js", "111/pages/PeiYu/FangAn/DiShi/DiShi.js", "111/pages/HaiChong/FangZhi/FangZhi.js", "111/pages/HaiChong/NongYao/NongYao.js", "111/pages/ShiChang/ZhuanJia2/ZhuanJia2.js", "111/pages/ShiChang/ShuJu/ShuJu.js", "111/pages/ShiChang/ZhuanJia2/CeLue6/CeLue6.js", "111/pages/ShiChang/ZhuanJia2/CeLue5/CeLue5.js", "111/pages/ShiChang/ZhuanJia2/CeLue4/CeLue4.js", "111/pages/ShiChang/ZhuanJia2/CeLue3/CeLue3.js", "111/pages/ShiChang/ZhuanJia2/CeLue2/CeLue2.js", "111/pages/ShiChang/ZhuanJia2/CeLue1/CeLue1.js", "111/pages/start/XinShou/XinShou.js"   ],
+  "exclude": [
+    "node_modules"
+  ]
+}

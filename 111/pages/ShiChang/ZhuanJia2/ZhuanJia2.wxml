@@ -1,0 +1,44 @@
+<block wx:for="{{zhuanjia2List}}" wx:for-item="item2" wx:for-index="index2">
+  <view class = "container1" catchtap = "ToDetail1" >
+    <text class = "type">{{item2.type1}}</text>
+    <text class = "title">{{item2.title1}}</text>
+    <image class = "pic" src="{{item2.pic1}}"></image>
+    <text class = "jianjie">{{item2.jianjie1}}</text>
+    <text class = "tishi">{{item2.tishi}}</text>
+  </view>
+  <view class = "container2" catchtap = "ToDetail2">
+    <text class = "type">{{item2.type2}}</text>
+    <text class = "title">{{item2.title2}}</text>
+    <image class = "pic" src="{{item2.pic2}}"></image>
+    <text class = "jianjie">{{item2.jianjie2}}</text>
+    <text class = "tishi">{{item2.tishi}}</text>
+  </view>
+  <view class = "container3" catchtap = "ToDetail3">
+    <text class = "type">{{item2.type3}}</text>
+    <text class = "title">{{item2.title3}}</text>
+    <image class = "pic" src="{{item2.pic3}}"></image>
+    <text class = "jianjie">{{item2.jianjie3}}</text>
+    <text class = "tishi">{{item2.tishi}}</text>
+  </view>
+  <view class = "container4" catchtap = "ToDetail4">
+    <text class = "type">{{item2.type4}}</text>
+    <text class = "title">{{item2.title4}}</text>
+    <image class = "pic" src="{{item2.pic4}}"></image>
+    <text class = "jianjie">{{item2.jianjie4}}</text>
+    <text class = "tishi">{{item2.tishi}}</text>
+  </view>
+  <view class = "container5" catchtap = "ToDetail5">
+    <text class = "type">{{item2.type5}}</text>
+    <text class = "title">{{item2.title5}}</text>
+    <image class = "pic" src="{{item2.pic5}}"></image>
+    <text class = "jianjie">{{item2.jianjie5}}</text>
+    <text class = "tishi">{{item2.tishi}}</text>
+  </view>
+  <view class = "container6" catchtap = "ToDetail6">
+    <text class = "type">{{item2.type6}}</text>
+    <text class = "title">{{item2.title6}}</text>
+    <image class = "pic" src="{{item2.pic6}}"></image>
+    <text class = "jianjie">{{item2.jianjie6}}</text>
+    <text class = "tishi">{{item2.tishi}}</text>
+  </view>
+</block>

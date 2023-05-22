@@ -1,0 +1,80 @@
+/* pages/PeiYu/Share/UploadArticle/UploadArticle.wxss */
+.photo{
+    border-radius: 7px;
+    width: 70rpx;
+    background: -webkit-linear-gradient(left,skyblue,deepskyblue,rgb(65, 148, 231));
+    border: 3px solid;
+    text-align: center;
+    height: 30px;
+    margin-left: 30rpx;
+}
+.photos{
+    width: 100px;
+    height: 100px;
+}
+.conts{
+    width: 750rpx;
+    height: auto;
+    border: 1rpx soldi red;
+    margin-top: 30rpx;
+    background: #fff;
+}
+.areas2{
+    height:60rpx;
+    font-size: 30rpx;
+    text-indent: 28rpx;
+    border: 1rpx solid gainsboro;
+    padding-top: 30rpx;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.areas{
+    height:700rpx;
+    font-size: 30rpx;
+    text-indent: 28rpx;
+    border: 1rpx solid gainsboro;
+    padding-top: 30rpx;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.currentWordNumber{
+    font-size: 28rpx;
+    color: gray;
+    position: absolute;
+    left: 593rpx;
+    top: -1rpx;
+}
+.hint{
+    font-size: 28rpx;
+    position: absolute;
+    top: 120rpx;
+    left: 30rpx;
+    color: #FF6600;
+}
+
+.radio1{
+  margin-left:20rpx;
+  margin-top:20rpx;
+}
+
+.radio2{
+  margin-left:20rpx;
+  margin-top:20rpx;
+}
+
+.tips{
+  margin-left:30rpx;
+}
+
+.uploadBtn {
+  font-size: 13pt;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #f18f0e;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  border-radius: 100rpx;
+  margin: 3% 20%;
+}

@@ -1,0 +1,15 @@
+<!--pages/PeiYu/Share/Detail/Detail.wxml-->
+<view class="article">
+    <view class="title">{{article.title}}</view>
+    <image class="pic" src="{{item.fileIds[0]}}" mode="aspectFit"></image>
+    <view class="text">{{article.text}}</view>
+</view>
+<scroll-view class="scroll" scroll-y="true" style="height: 200px; border: 3px solid; border-radius: 7px; " enable-flex="true" scroll-with-animation="true" bindscrolltolower="bottom" bindscrolltoupper="top">
+    <view class="comments" wx:for="{{article.comments}}">
+        <text class="comment">{{item}}</text>
+    </view>
+</scroll-view>
+<view class="say">
+    <textarea class="areas" placeholder='发表一则评论' bindinput="inputs" maxlength="500"></textarea>
+    <button class="commit" bindtap="commit">发布</button>
+</view>

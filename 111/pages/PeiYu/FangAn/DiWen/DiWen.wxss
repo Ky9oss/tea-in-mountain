@@ -1,0 +1,85 @@
+/* pages/PeiYu/FangAn/DiWen/DiWen.wxss */
+.beijing{
+  width:100%;
+  height:132%;
+  position:absolute;
+  z-index:-3;
+}
+
+.hudie{
+  width:130%;
+  height:600rpx;
+  position:absolute;
+  z-index:-1;
+}
+
+
+.container{
+  display: flex;
+}
+
+.title{
+  margin-top:50rpx;
+  width:400rpx;
+  height:300rpx;
+}
+
+.shiju{
+  font-size: 50rpx;
+  color: rgb(252, 248, 5);
+  font-weight:bold;
+  font-family: cursive;
+  font-style:italic;
+}
+
+.zhengwen1{
+  font-size: 40rpx;
+  color: rgb(245, 152, 12);
+  font-family: cursive;
+  font-weight:bold;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.zhengwen2{
+  font-size: 40rpx;
+  color: rgb(37, 153, 53);
+  font-family: cursive;
+  font-weight:bold;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.zhengwen3{
+  font-size: 40rpx;
+  color: rgba(66, 97, 15, 0.993);
+  font-family: cursive;
+  font-weight:bold;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.cat{
+  margin-top: 380rpx;
+  margin-left:530rpx;
+  width:150rpx;
+  height:150rpx;
+  position:absolute;
+  z-index:1;
+}
+
+.cat2{
+  margin-top: 350rpx;
+  margin-left:530rpx;
+  width:210rpx;
+  height:210rpx;
+  position:absolute;
+  z-index:1;
+}
+
+.snow{
+  width:100%;
+  height:500rpx;
+  z-index: -2;
+  position: absolute;
+}

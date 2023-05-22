@@ -1,0 +1,13 @@
+<!--pages/PeiYu/Share/Share.wxml-->
+<view class = "container">
+  <scroll-view class="scroll" scroll-y="true" style="height:1200rpx; border: 3px solid; border-radius: 7px; " enable-flex="true" scroll-with-animation="true" bindscrolltolower="bottom" bindscrolltoupper="top">
+      <view class="article" wx:for="{{articles}}">
+          <text class="type">{{item.type}}</text>
+          <text class="details" bindtap="details" data-word="{{item._id}}">详情</text>
+      </view>
+  </scroll-view>
+</view>
+
+<view class="container2">
+    <image catchtap="onTapJump1" class="fenxiang3" src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/jiahao.png"></image>
+</view>

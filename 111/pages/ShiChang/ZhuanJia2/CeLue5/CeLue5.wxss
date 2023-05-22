@@ -1,0 +1,84 @@
+.beijing{
+  width:100%;
+  height:154%;
+  position:absolute;
+  z-index:-2;
+}
+
+.hudie{
+  width:100%;
+  height:550rpx;
+  position:absolute;
+  z-index:-1;
+}
+
+
+.container{
+  display: flex;
+}
+
+.title{
+  margin-top:50rpx;
+  width:400rpx;
+  height:300rpx;
+}
+
+.shiju{
+  font-size: 50rpx;
+  color: rgb(23, 112, 228);
+  font-weight:bold;
+  font-family: cursive;
+  font-style:italic;
+}
+
+.zhengwen1{
+  font-size: 40rpx;
+  color: rgb(253, 0, 0);
+  font-family: cursive;
+  font-weight:bold;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.zhengwen2{
+  font-size: 40rpx;
+  color: rgb(43, 0, 235);
+  font-family: cursive;
+  font-weight:bold;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.zhengwen3{
+  font-size: 40rpx;
+  color: rgba(15, 94, 15, 0.993);
+  font-family: cursive;
+  font-weight:bold;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.cat{
+  margin-top: 380rpx;
+  margin-left:530rpx;
+  width:150rpx;
+  height:150rpx;
+  position:absolute;
+  z-index:1;
+}
+
+.cat2{
+  margin-top: 380rpx;
+  margin-left:530rpx;
+  width:150rpx;
+  height:150rpx;
+  position:absolute;
+  z-index:1;
+}
+
+
+.title2{
+  font-size: 40rpx;
+
+  color:rgb(252, 247, 0);
+  margin-top:30rpx;
+}

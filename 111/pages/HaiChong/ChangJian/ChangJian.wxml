@@ -1,0 +1,11 @@
+<view>
+  <image class="beijing"  src="cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/beijing7.jpg"></image>
+  <image class = "chongchong1" catchtap="onTapJump1" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chongchong4.png"></image>
+  <image class = "chongchong2" catchtap="onTapJump2" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chongchong3.png"></image>
+  <image class = "chongchong3" catchtap="onTapJump3" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chongchong5.png"></image>
+  <image class = "chongchong4" catchtap="onTapJump4" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chongchong6.png"></image>
+  <image class = "chongchong5" catchtap="onTapJump5" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/chongchong1.png"></image>
+</view>
+<button class="confirm-btn" open-type="feedback">
+  <text>没有您想要找的害虫？请反馈</text>
+</button>

@@ -1,0 +1,96 @@
+<view>
+<image class = "beijing" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/beijing2.jpg"></image>
+</view>
+<view wx:if="{{temp>=35&&shidu>=70}}" >
+  <view class = "container" >
+    <text class = "shishi">您所在地区当前的天气为：{{text}}
+      
+    您所在地区当前的空气温度为：{{temp}}摄氏度
+    
+    您所在地区当前的空气温度为：{{shidu}}%</text>
+    <text class = "shiju">
+    环境温度过高
+    环境湿度正常</text>
+    <button class="confirm-btn" catchtap="onTapJump1" >
+    <text>查看温度过高解决方案</text>
+    </button>
+  </view>
+</view>
+
+
+<view wx:if="{{temp<=15&&shidu>=70}}" >
+  <view class = "container" >
+    <text class = "shishi">您所在地区当前的天气为:{{text}}
+    您所在地区当前的空气温度为:{{temp}}摄氏度
+    您所在地区当前的空气温度为:{{shidu}}%</text>
+    <text class = "shiju">
+    环境温度过低
+    环境湿度正常</text>
+    <button class="confirm-btn" catchtap="onTapJump2" >
+    <text>查看温度过低解决方案</text>
+    </button>
+  </view>
+</view>
+
+
+<view wx:if="{{15<temp<35&&shidu>=70}}" >
+  <view class = "container" >
+    <text class = "shishi">您所在地区当前的天气为:{{text}}
+    您所在地区当前的空气温度为:{{temp}}摄氏度
+    您所在地区当前的空气温度为:{{shidu}}%</text>
+    <text class = "shiju">
+    环境温度正常
+    环境湿度正常</text>
+  </view>
+</view>
+
+
+<view wx:if="{{temp>=35&&shidu<70}}" >
+  <view class = "container" >
+    <text class = "shishi">您所在地区当前的天气为:{{text}}
+    您所在地区当前的空气温度为:{{temp}}摄氏度
+    您所在地区当前的空气温度为:{{shidu}}%</text>
+    <text class = "shiju">
+    环境温度过高
+    环境湿度过低</text>
+    <button class="confirm-btn" catchtap="onTapJump1" >
+    <text>查看温度过高解决方案</text>
+    </button>
+    <button class="confirm-btn" catchtap="onTapJump3" >
+    <text>查看湿度过低解决方案</text>
+    </button>
+  </view>
+</view>
+
+
+<view wx:if="{{15<temp<35&shidu<70}}" >
+  <view class = "container" >
+    <text class = "shishi">您所在地区当前的天气为:{{text}}
+    您所在地区当前的空气温度为:{{temp}}摄氏度
+    您所在地区当前的空气温度为:{{shidu}}%</text>
+    <text class = "shiju">
+    环境温度正常
+    环境湿度过低</text>
+    <button class="confirm-btn" catchtap="onTapJump3" >
+    <text>查看湿度过低解决方案</text>
+    </button>
+  </view>
+</view>
+
+
+<view wx:if="{{temp<35&&shidu<70}}" >
+  <view class = "container" >
+    <text class = "shishi">您所在地区当前的天气为:{{text}}
+    您所在地区当前的空气温度为:{{temp}}摄氏度
+    您所在地区当前的空气温度为:{{shidu}}%</text>
+    <text class = "shiju">
+    环境温度过高
+    环境湿度正常</text>
+    <button class="confirm-btn" catchtap="onTapJump2" >
+    <text>查看温度过低解决方案</text>
+    </button>
+    <button class="confirm-btn" catchtap="onTapJump3" >
+    <text>查看湿度过低解决方案</text>
+    </button>
+  </view>
+</view>

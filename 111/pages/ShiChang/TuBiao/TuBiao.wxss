@@ -1,0 +1,38 @@
+/* pages/ShiChang/TuBiao/TuBiao.wxss */
+ec-canvas {
+    width: 300px;
+    height: 160px;
+}
+.areas{
+  height:80rpx;
+  font-size: 40rpx;
+  text-indent: 28rpx;
+  border: 1rpx solid gainsboro;
+  padding-top: 30rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 40rpx;
+}
+
+.btn1 {
+  font-size: 13pt;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #041355;
+  color: rgb(247, 247, 247);
+  text-align: center;
+  border-radius: 100rpx;
+  margin: 3% 20%;
+}
+
+.btn2 {
+  font-size: 13pt;
+  line-height: 85rpx;
+  height: 85rpx;
+  background: #041355;
+  color: rgb(250, 246, 246);
+  text-align: center;
+  border-radius: 100rpx;
+  margin: 3% 20%;
+}

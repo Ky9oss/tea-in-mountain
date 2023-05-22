@@ -1,0 +1,13 @@
+<view>
+  <image class = "beijing"  src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/beijing2.jpg"></image> 
+  <image class = "sun"  src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/sun.gif"></image> 
+  <image class = "snow"  src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/snow.gif"></image> 
+  <image class = "hudie"  src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/leaves.gif"></image> 
+  <image class = "rain"  src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/rain.gif"></image> 
+  <image class = "light"  src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/cloud.gif"></image> 
+  <image class = "pic" catchtap="onTapJump1" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/gaowen.png"></image> 
+  <image class = "pic" catchtap="onTapJump2" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/diwen.png"></image>  
+  <image class = "pic" catchtap="onTapJump3" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/ganzao.png"></image>  
+  <image class = "pic" catchtap="onTapJump4" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/jianxing.png"></image>  
+  <image class = "pic" catchtap="onTapJump5" src = "cloud://cloud1-1g5qoncwdf499cb0.636c-cloud1-1g5qoncwdf499cb0-1310581230/zhengchang.png"></image>   
+</view>

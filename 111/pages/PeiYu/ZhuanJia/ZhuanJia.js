@@ -1,0 +1,99 @@
+var dataObj = require("../../../data/zhuanjiaData.js");
+
+Page({
+
+  /**
+   * 页面的初始数据
+   */
+  data: {
+
+  },
+
+  ToDetail1(event){
+    wx.navigateTo({
+      url: 'Detail1/Detail1',
+    })
+  },
+
+  ToDetail2(event){
+    wx.navigateTo({
+      url: 'Detail2/Detail2',
+    })
+  },
+
+  ToDetail3(event){
+    wx.navigateTo({
+      url: 'Detail3/Detail3',
+    })
+  },
+
+  ToDetail4(event){
+    wx.navigateTo({
+      url: 'Detail4/Detail4',
+    })
+  },
+
+  ToDetail5(event){
+    wx.navigateTo({
+      url: 'Detail5/Detail5',
+    })
+  },
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad() {
+    this.setData({
+      zhuanjiaList:dataObj.zhuanjiaList
+    })
+  },
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide() {
+
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload() {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh() {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom() {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage() {
+
+  }
+})
